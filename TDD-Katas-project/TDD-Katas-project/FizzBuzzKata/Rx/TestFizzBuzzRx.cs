@@ -18,6 +18,7 @@ namespace TDD_Katas_project.FizzBuzzKata.Rx
         [TestCase(2, Result = "1,2,")]
         public string GivenNumberUpTo2_ReturnNumbersCommaDelimited(int input)
         {
+            return "";
             return FizzBuzzRx.Generate(input);
         }
 
